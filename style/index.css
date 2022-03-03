@@ -181,9 +181,7 @@ section.bonus>div.box{
     text-align: center;
     padding:50px 0;  
     }
-html{
-    overflow-x: hidden;        
-    }
+
 @media screen and (max-width:575.98px){
     main section.slider>ul>li{
         background-image: url(../style/img/Image-C2.jpg);

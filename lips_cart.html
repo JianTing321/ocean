@@ -113,10 +113,10 @@
                     <img id="mainImg" class="mainImg product" src="./style/img/product/LM/02/01.png" alt="">
                     <img class="favorite" src="./style/img/icon/favorite/hallowheart-01.svg" alt="" srcset="">
                     <ul class="showbar">
-                        <li><img class="smallImgP" src="./style/img/product/LM/02/01.png" alt="" srcset=""></li>
-                        <li><img class="smallImgP" src="./style/img/product/LM/02/s1.jpg" alt="" srcset=""></li>
-                        <li><img class="smallImgP" src="./style/img/product/LM/02/s2.jpg" alt="" srcset=""></li>
-                        <li><img class="smallImgP" src="./style/img/product/LM/02/s3.jpg" alt="" srcset=""></li>
+                        <li><img class="smallImg" src="./style/img/product/LM/02/01.jpg" alt="" srcset=""></li>
+                        <li><img class="smallImg" src="./style/img/product/LM/02/s1.jpg" alt="" srcset=""></li>
+                        <li><img class="smallImg" src="./style/img/product/LM/02/s2.jpg" alt="" srcset=""></li>
+                        <li><img class="smallImg" src="./style/img/product/LM/02/s3.jpg" alt="" srcset=""></li>
                     </ul>
                 </li>
                 <li class="content">
@@ -191,7 +191,7 @@
             });
         // -----------商品頁------------//
             let mainImg = document.getElementById("mainImg");
-            let smallImg = document.getElementsByClassName("smallImgP");
+            let smallImg = document.getElementsByClassName("smallImg");
             smallImg[0].onclick = function(){
                 mainImg.src = smallImg[0].src;
             } 

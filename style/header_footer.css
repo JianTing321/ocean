@@ -451,7 +451,7 @@ section.second{
     
 }
 header section.second{
-   
+   background-color: #fff;
     height: 300px;
     box-shadow: rgba(15, 15, 15, 0.322) 2px 2px;
 }
